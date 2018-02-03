@@ -1,4 +1,5 @@
 library("markovchain")
+library("foreach")
 states<-c("Normal","Pressure","Happy","Sadness","Angry","Fear")
 #Reads all csv file in storage and gets mood data from there
 data<-foreach(elem=list.files("R",pattern = ".+(\\.csv)$"),.combine = 'c') %do% data.matrix(read.csv(paste('R\\',elem,sep=""),sep = ',',header = F))
