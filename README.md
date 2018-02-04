@@ -1,7 +1,7 @@
 # prediction_anamoly_detection_cs_project
 Using Markov Chains  
-  
-![Mood Plot](https://i.imgur.com/VLd9t4P.png)
+![Mood Density Plot](https://i.imgur.com/jLAC8pK.png)  
+![Mood Markov Chain Plot](https://i.imgur.com/VLd9t4P.png)  
   
  A  6 - dimensional discrete Markov Chain defined by the following states:  
  Angry, Fear, Happy, Normal, Pressure, Sadness  
